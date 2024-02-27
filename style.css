@@ -1,0 +1,205 @@
+
+.styles{
+    display:grid;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-template-columns:repeat(2,1fr);
+    grid-auto-rows: minmax(130px,auto);
+    border:2px solid green;
+    column-gap:2rem;
+    border:none;
+    height:auto;
+   /*  min-height:300px;
+    max-height:400px; */
+    background:rgb(1, 255, 255);
+    max-width:575px;
+    min-width:300px; 
+    padding:0px 40px;
+    margin-top:150px;
+}
+.styles .box{
+    border:1px solid red;
+    padding:20px;
+    border-radius:15px;
+    display:flex;flex-flow:column nowrap;
+}
+.styles .child{
+    transform: translateY(-45px);
+}
+.styles .girls{
+    transform: translateY(-45px);
+}
+.styles .ladies{
+    transform: translateY(-3px);
+}
+.styles .womens{
+    transform: translateY(-5px);
+}
+.styles .summer{
+    transform: translateY(35px);
+}
+.styles .winter{
+    transform: translateY(35px);
+}
+.styles .box h1{
+    text-align:center;
+    text-transform:uppercase;
+    font-size:18px;
+    font-weight:900;
+    letter-spacing:1.2px;
+    font-family:'poppins',sans-serif;
+    color:teal;
+}
+.styles .box p{
+    font-size:12px;
+    font-weight:500;
+    color:pink;
+    font-family:'poppins',sans-serif;
+    margin-top:10px;
+}
+@media screen and (min-width:769px){
+    .styles{
+        display:grid;
+        grid-column-start: 1;
+        grid-row-start: 1;
+        grid-template-columns:repeat(3,1fr);
+        grid-auto-rows: minmax(150px,auto);
+        border:2px solid green;
+        column-gap:2rem;
+        height:px;
+        border:none;
+       /*  min-height:300px;
+        max-height:400px; */
+        background:rgb(1, 255, 255);
+        max-width:768px;
+        min-width:300px; 
+        padding:0px 40px;
+        border-radius:25px;
+    }
+    .styles .child{
+        transform: translateY(-45px);
+    }
+    .styles .girls{
+        transform: translateY(-45px);
+    }
+    .styles .ladies{
+        transform: translateY(-45px);
+    }
+    .styles .womens{
+        transform: translateY(35px);
+    }
+    .styles .summer{
+        transform: translateY(35px);
+    }
+    .styles .winter{
+        transform: translateY(35px);
+    }
+}
+@media screen and (min-width:992px){
+    .styles{
+        display:grid;
+        grid-column-start: 1;
+        grid-row-start: 1;
+        grid-template-columns:repeat(4,1fr);
+        grid-auto-rows: minmax(130px,auto);
+        border:2px solid green;
+        column-gap:2rem;
+        height:px;
+        border:none;
+       /*  min-height:300px;
+        max-height:400px; */
+        background:rgb(1, 255, 255);
+        max-width:991px;
+        min-width:768px; 
+        padding:0px 40px;
+        border-radius:25px;
+    }
+    .styles .child{
+        transform: translateY(-45px);
+    }
+    .styles .girls{
+        transform: translateY(-45px);
+    }
+    .styles .ladies{
+        transform: translateY(-45px);
+    }
+    .styles .womens{
+        transform: translateY(-45px);
+    }
+    .styles .summer{
+        transform: translateY(35px);
+    }
+    .styles .winter{
+        transform: translateY(35px);
+    }
+    .styles .box h1{
+        text-align:center;
+        text-transform:uppercase;
+        font-size:14px;
+        font-weight:700;
+        letter-spacing:1.2px;
+        font-family:'poppins',sans-serif;
+        color:teal;
+    }
+    .styles .box p{
+        font-size:10px;
+        font-weight:400;
+        color:pink;
+        font-family:'poppins',sans-serif;
+        margin-top:10px;
+    }
+}
+@media screen and (min-width:992px){
+    .styles{
+        display:grid;
+        grid-column-start: 1;
+        grid-row-start: 1;
+        grid-template-columns:repeat(6,1fr);
+        grid-auto-rows: minmax(100px,auto);
+        border:2px solid green;
+        column-gap:2rem;
+        height:px;
+        border:none;
+       /*  min-height:300px;
+        max-height:400px; */
+        background:rgb(1, 255, 255);
+        max-width:1300px;
+        min-width:991px; 
+        padding:0px 40px;
+        border-radius:25px;
+    }
+    .styles .child{
+        transform: translateY(-45px);
+    }
+    .styles .girls{
+        transform: translateY(-45px);
+    }
+    .styles .ladies{
+        transform: translateY(-45px);
+    }
+    .styles .womens{
+        transform: translateY(-45px);
+    }
+    .styles .summer{
+        transform: translateY(-45px);
+    }
+    .styles .winter{
+        transform: translateY(-45px);
+    }
+    .styles .box h1{
+        text-align:center;
+        text-transform:uppercase;
+        font-size:16px;
+        font-weight:700;
+        letter-spacing:1.2px;
+        font-family:'poppins',sans-serif;
+        color:teal;
+    }
+    .styles .box p{
+        font-size:10px;
+        font-weight:400;
+        color:pink;
+        font-family:'poppins',sans-serif;
+        margin-top:10px;
+    }
+}
